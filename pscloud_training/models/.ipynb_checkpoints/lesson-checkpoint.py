@@ -10,4 +10,3 @@ start_date = fields.Date(string='开始时间')
 end_date = fields.Date(string='结束时间')
 seat_qty = fields.Integer(string='座位数')
 subject_id = fields.Many2one('pscloud_training.models.subject', string='科目')
-    
