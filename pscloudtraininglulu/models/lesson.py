@@ -2,7 +2,7 @@ from odoo import api, fields, models
 
 class TrainingLesson(models.Model):
     _name = 'lu.lesson'
-    _description = "课程信息"
+    _description = "课程信息哦"
     
     name = fields.Char(string='课程名称')
     teacher_id = fields.Many2one('res.partner', string='老师', domain=[('is_teacher', '=', True)])
@@ -12,4 +12,3 @@ class TrainingLesson(models.Model):
     seat_qty = fields.Integer(string='座位数')
     subject_id = fields.Many2one('lu.subject', string='科目')
     person_id = fields.Many2one('res.partner', related='subject_id.person_id', readonly=True)
-    desc = fields.Text(string='描述')
