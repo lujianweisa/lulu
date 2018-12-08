@@ -1,3 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_lu_lesson,access_lu_lesson,model_lu_lesson,base.group_user,1,1,1,1
-access_lu_subject,access_lu_subject,model_lu_subject,base.group_user,1,1,1,1
+access_lu_lesson,lu.lesson,model_lu_lesson,base.group_user,1,1,1,1
+access_lu_subject,lu.subject,model_lu_subject,base.group_user,1,1,1,1
